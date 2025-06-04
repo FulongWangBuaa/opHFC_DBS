@@ -1,6 +1,6 @@
 # Overview
 
-Python code related to the paper *"Evaluation of extended homogeneous field correction method based on oblique projection in OPM-MEG recordings from Parkinson’s disease patients with deep brain stimulation."*
+Python code related to the paper *"Evaluation of extended homogeneous field correction method based on oblique projection in OPM-MEG recordings from Parkinson’s disease patients with deep brain stimulation."*(Unpublished)
 
 
 # opHFC
