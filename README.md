@@ -18,6 +18,28 @@ For details related to `opHFC`, please refer to the paper:
 - `AMM` was implemented using the spm_opm_amm.m function from the [SPM toolbox](https://github.com/spm/spm) in MATLAB.
 - The file `wfl_preproc_opHFC.py` is a Python implementation of the `opHFC` [5] method.
 
+# Quick start
+Using the `opHFC` code requires leadfield matrix. To obtain the lead field matrix, please refer to the following steps：
+- Using fwd = [mne.make_forward_solution(...)](https://mne.tools/stable/generated/mne.make_forward_solution.html#mne.make_forward_solution) function to calculate a forward solution for a subject.
+- The leadfield matrix can be obtained using `LF = fwd["sol"]["data"]`.
+
+
+## Example Code
+```python
+from wfl_preproc_opHFC import opHFC
+raw = mne.io.read_raw_fif(raw_path)
+raw_room = mne.io.read_raw_fif(raw_room_path)
+# LF: leadfield matrix
+raw_opHFC = opHFC(raw=raw,
+                  raw_room=raw_room,
+                  leadfield=LF,
+                  Nnoise=Nnoise,
+                  Nsignal=Nsignal,
+                  Nout=Nout,
+                  Nin=Nin,
+                  Nee=Nee)
+```
+
 
 # Cite
 
