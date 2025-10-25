@@ -13,8 +13,6 @@ For details related to `opHFC`, please refer to the paper:
 
 
 # Cite
-If you use any part of the code, please cite the following publication:
-
 
 - [1] Uusitalo M A, Ilmoniemi R J. Signal-space projection method for separating MEG or EEG into components[J]. Medical & Biological Engineering & Computing, 1997, 35(2): 135-140.[DOI: https://doi.org/10.1007/BF02534144](https://doi.org/10.1007/BF02534144)
 - [2] Sekihara K, Kawabata Y, Ushio S, et al. Dual signal subspace projection (DSSP): a novel algorithm for removing large interference in biomagnetic measurements[J]. Journal of Neural Engineering, 2016, 13(3): 036007.[DOI: https://doi.org/10.1088/1741-2560/13/3/036007](https://doi.org/10.1088/1741-2560/13/3/036007)
