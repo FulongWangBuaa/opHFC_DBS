@@ -30,6 +30,11 @@ from wfl_preproc_opHFC import opHFC
 raw = mne.io.read_raw_fif(raw_path)
 raw_room = mne.io.read_raw_fif(raw_room_path)
 # LF: leadfield matrix
+# Nnoise: Number component of noise
+# Nsignal: Number component of signal
+# Nout: Number component of noise for oblique projection
+# Nin: Number component of signal for oblique projection
+# Nee: Number component for temporally extended
 raw_opHFC = opHFC(raw=raw,
                   raw_room=raw_room,
                   leadfield=LF,
