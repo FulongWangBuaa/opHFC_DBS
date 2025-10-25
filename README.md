@@ -37,8 +37,11 @@ You can generate it in MNE-Python by following these steps:
    [`mne.make_forward_solution()`](https://mne.tools/stable/generated/mne.make_forward_solution.html#mne.make_forward_solution):  
    ```python
      fwd = mne.make_forward_solution(...)
+2. Get leadfield
+   ```python
+     LF = fwd['sol']['data']
 
-2. Example Code
+# 🧩 Example Code
    ```python
     from wfl_preproc_opHFC import opHFC
     import mne
@@ -63,7 +66,7 @@ You can generate it in MNE-Python by following these steps:
         Nin=Nin,
         Nee=Nee
     )
-
+  ```
 
 # 📚 Cite
 
