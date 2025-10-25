@@ -12,7 +12,8 @@ For details related to `opHFC`, please refer to the paper:
 - [2] Wang F, Cao F, An, N, et al. Artifact Suppression in OPM-MEG for Parkinson's Disease Patients with DBS Implants Using Oblique Projection-Based Extended Homogeneous Field Correction[J]. IEEE Journal of Biomedical and Health Informatics, 2025.
 
 # Note
-- `SSP` and `HFC` were implemented using functions provided in the MNE-Python.
+- `SSP` were implemented using functions [mne.compute_proj_raw](https://mne.tools/stable/generated/mne.compute_proj_raw.html#mne.compute_proj_raw) provided in the MNE-Python.
+-  `HFC` were implemented using functions [mne.preprocessing.compute_proj_hfc](https://mne.tools/stable/generated/mne.preprocessing.compute_proj_hfc.html#mne.preprocessing.compute_proj_hfc) provided in the MNE-Python.
 - The file `wfl_preproc_dssp.py` is a Python implementation of the `DSSP` [2] method.
 - `AMM` was implemented using the spm_opm_amm.m function from the SPM toolbox in MATLAB.
 - The file `wfl_preproc_opHFC.py` is a Python implementation of the `opHFC` [5] method.
