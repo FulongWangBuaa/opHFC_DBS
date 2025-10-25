@@ -13,8 +13,11 @@ For details related to `opHFC`, please refer to the paper:
 
 # Other methods
 SSP and HFC: The SSP and HFC methods were implemented using functions provided in the MNE-Python
+
 DSSP: wfl_preproc_dssp.py
+
 AMM: The AMM method was implemented using the spm_opm_amm.m function from the SPM toolbox in MATLAB.
+
 opHFC: wfl_preproc_opHFC.py
 
 # Cite
