@@ -41,6 +41,10 @@ You can generate it in MNE-Python by following these steps:
    ```python
      LF = fwd['sol']['data']
 
+
+---
+
+
 # 🧩 Example Code
    ```python
     from wfl_preproc_opHFC import opHFC
@@ -66,7 +70,9 @@ You can generate it in MNE-Python by following these steps:
         Nin=Nin,
         Nee=Nee
     )
-  ```
+
+
+```
 
 # 📚 Cite
 
