@@ -11,6 +11,11 @@ For details related to `opHFC`, please refer to the paper:
  [DOI: https://doi.org/10.1016/j.neuroimage.2024.120991](https://doi.org/10.1016/j.neuroimage.2024.120991)
 - [2] Wang F, Cao F, An, N, et al. Artifact Suppression in OPM-MEG for Parkinson's Disease Patients with DBS Implants Using Oblique Projection-Based Extended Homogeneous Field Correction[J]. IEEE Journal of Biomedical and Health Informatics, 2025.
 
+# Other methods
+SSP and HFC: The SSP and HFC methods were implemented using functions provided in the MNE-Python
+DSSP: wfl_preproc_dssp.py
+AMM: The AMM method was implemented using the spm_opm_amm.m function from the SPM toolbox in MATLAB.
+opHFC: wfl_preproc_opHFC.py
 
 # Cite
 
