@@ -15,7 +15,7 @@ For details related to `opHFC`, please refer to the paper:
 - `SSP` were implemented using functions [mne.compute_proj_raw](https://mne.tools/stable/generated/mne.compute_proj_raw.html#mne.compute_proj_raw) provided in the MNE-Python.
 -  `HFC` were implemented using functions [mne.preprocessing.compute_proj_hfc](https://mne.tools/stable/generated/mne.preprocessing.compute_proj_hfc.html#mne.preprocessing.compute_proj_hfc) provided in the MNE-Python.
 - The file `wfl_preproc_dssp.py` is a Python implementation of the `DSSP` [2] method.
-- `AMM` was implemented using the spm_opm_amm.m function from the SPM toolbox in MATLAB.
+- `AMM` was implemented using the spm_opm_amm.m function from the [SPM toolbox](https://github.com/spm/spm) in MATLAB.
 - The file `wfl_preproc_opHFC.py` is a Python implementation of the `opHFC` [5] method.
 
 
